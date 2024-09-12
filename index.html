@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fun Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">$FEET</div>
+        <div class="header-center">
+            <a href="https://x.com/feetchain_sol" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://t.me/+VKMwTeTtmSVhYjBk" target="_blank"><img src="telegram.png" alt="Telegram"></a>
+            <a href="https://t.me/+VKMwTeTtmSVhYjBk" target="_blank"><img src="pumpfun.png" alt="Pumpfun"></a>
+        </div>
+        <div class="header-right">
+            <img src="image-removebg-preview (6) copy.png" alt="Logo">
+        </div>
+    </header>
+    <main>
+        <div class="tara-animation">Feet chain</div>
+        <div class="image-container">
+            <img src="image-removebg-preview (6) (1).png" alt="Cool Image">
+        </div>
+        <div class="cool-text">
+            "<strong>ALL BASED ON feet have value too!<strong>  :
+
+Born in the wild corners of the internet, Feet Chain isn’t just another crypto. it’s a revolution for foot enthusiasts. Why settle for coins that talk bulls and bears when you can back toes and arches? Every transaction fuels the underground foot-fetish economy. So, kick off your shoes and join the Feet Chain movement. 
+        </div>
+        <div class="buttons">
+            <button class="live-button">LIVE ON PUMPFUN</button>
+            <button class="make-button">CA HERE</button>
+        </div>
+        <div class="scroll-container">
+            <button class="scroll-left" onclick="scrollLeft()">&#10094;</button>
+            
+            <div class="image-scroll">
+                <div class="scroll-item"><img src="images/feet.jpg" alt="Image 1"></div>
+                <div class="scroll-item"><img src="images/feet2.jpg" alt="Image 2"></div>
+                <div class="scroll-item"><img src="images/feet3.jpg" alt="Image 3"></div>
+                <div class="scroll-item"><img src="images/feet.jpg" alt="Image 4"></div>
+                <div class="scroll-item"><img src="images/feet2.jpg" alt="Image 5"></div>
+                <div class="scroll-item"><img src="images/feet3.jpg" alt="Image 6"></div>
+                <div class="scroll-item"><img src="images/feet.jpg" alt="Image 7"></div>
+                <div class="scroll-item"><img src="images/feet2.jpg" alt="Image 8"></div>
+                <div class="scroll-item"><img src="images/feet3.jpg" alt="Image 9"></div>
+            </div>
+            
+            <button class="scroll-right" onclick="scrollRight()">&#10095;</button>
+        </div>    
+    </main>
+    <script>
+        function scrollLeft() {
+            document.querySelector('.image-scroll').scrollBy({
+                left: -300, // Adjust the scroll distance as needed
+                behavior: 'smooth'
+            });
+        }
+
+        function scrollRight() {
+            document.querySelector('.image-scroll').scrollBy({
+                left: 200, // Adjust the scroll distance as needed
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
